@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/339af77bdb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio - Rolando Duarte</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Rolando Duarte</h1>
+                <h3>Desarrollador Web</h3>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Html5</a>
+                <a href="#">Node.Js</a>
+                <a href="#">CSS3</a>
+                <a href="#">Heroku</a>
+                <a href="#">Git</a>
+                <a href="#">Github</a>
+                <a href="#">React</a>
+                <a href="#">JavaScript</a>
+                <a href="#">SQL</a>
+            </div>
+        </header>
+
+
+        <section class="grid" id="grid">
+            <div class="item" data-categoria="html5" data-etiquetas="html codigo link"
+                data-descripcion="1-.Conocimientos y manejo de html5">
+                <div class="item-contenido">
+                    <img src="images/html-5.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="css3" data-etiquetas="styles css color fondo"
+                data-descripcion="2-.Conocimientos y manejo de css3">
+                <div class="item-contenido">
+                    <img src="images/css3.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="javascript" data-etiquetas="styles diseño javascript"
+                data-descripcion="3-.Conocimientos y manejo de javaScript">
+                <div class="item-contenido">
+                    <img src="images/javascript.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="node.js" data-etiquetas="npm nodejs"
+                data-descripcion="4-.Conocimientos y manejo de node.js">
+                <div class="item-contenido">
+                    <img src="images/node-js.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="react" data-etiquetas="styles frenworld color diseño react"
+                data-descripcion="5-.Conocimientos y manejo de react">
+                <div class="item-contenido">
+                    <img src="images/react.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="heroku" data-etiquetas="nube proyectos datos heroku"
+                data-descripcion="6-.Conocimientos y manejo de heroku">
+                <div class="item-contenido">
+                    <img src="images/heroku.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="git" data-etiquetas="repo visual studio code cd ramas"
+                data-descripcion="7-.Conocimientos y manejo de git">
+                <div class="item-contenido">
+                    <img src="images/git.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="github" data-etiquetas="repo  codigos nube ramas"
+                data-descripcion="8-.Conocimientos y manejo de github">
+                <div class="item-contenido">
+                    <img src="images/github.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="sql" data-etiquetas="data base datos db base de datos sql"
+                data-descripcion="9-.Conocimientos y manejo de dataBase con SQL">
+                <div class="item-contenido">
+                    <img src="images/mysql.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+        <footer class="container">
+            <div class="redes-sociles">
+                <div class="container-icono">
+                    <a href="/contacto.html" target="_blank" class="gmail"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="container-icono">
+                    <a href="http://www.linkedin.com/in/rolando-ramon-duarte-93116b17a" target="_blank"
+                        class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="container-icono">
+                    <a href="https://github.com/Rolando-Du" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="container-icono">
+                    <a href="/images/Rolando-Duarte.pdf" target="_blank" class="user"> <br> CV<i class="fa-regular fa-file-user"></i></a>
+                </div>
+                
+            </div>
+            <br>
+            <div class="creado-por">
+                <p>&copy; Sitio diseñado por Rolando Duarte -2022-</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
